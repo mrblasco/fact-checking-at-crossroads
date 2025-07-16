@@ -1,0 +1,10 @@
+bookdown::pdf_document2:
+  toc: yes
+  number_sections: no
+  latex_engine: xelatex
+  keep_tex: yes
+
+bookdown::word_document2:
+  toc: no
+  number_sections: no
+  reference_docx: custom-reference.docx

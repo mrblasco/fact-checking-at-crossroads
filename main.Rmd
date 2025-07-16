@@ -1,0 +1,212 @@
+---
+title: |
+  Fact-Checking at a Crossroads:  
+  Challenges, Alternatives, and Policy Interventions
+
+subtitle: |
+  *Pre-print version – submitted for publication*
+
+author: |
+  Andrea Blasco, Francesco Sobbrio
+
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+
+classoption: 
+  - a4paper
+  - 11pt
+
+geometry: margin=1in
+mainfont: Arial
+
+header-includes: |
+  ```{=latex}
+  \usepackage{setspace}
+  \doublespacing
+  ```
+
+bibliography: [refs.bib]
+csl: [https://www.zotero.org/styles/council-of-science-editors-brackets]
+link-citations: yes
+linkcolor: red
+--- 
+
+\newpage
+
+# Highlights 
+
+
+- Independent fact-checking organisations play a crucial role in combating misinformation.
+
+- Social media platforms, such as Meta and X, have scaled back their collaboration with professional fact-checking organisations, leading to financial strain on the fact-checking industry and increasing misinformation risks.
+
+- Alternative approaches, such as crowdsourced or AI-driven fact-checking, face significant limitations when used in isolation from professional fact-checkers. They often lack the investigative rigour, critical thinking, and independence that characterise professional fact-checking. 
+
+- A hybrid approach that combines professional and non-professional approaches may offer a more effective tool for combating misinformation.
+
+- Public intervention may be necessary to sustain fact-checking initiatives and address the challenges posed by misinformation.
+
+
+
+\newpage 
+
+> *An error does not become truth by reason of multiplied propagation, nor does truth become error because nobody sees it.*  
+> --- Mahatma Gandhi, _Young India_ 
+
+
+<!-- # Introduction -->
+As concerns about **disinformation** and **misinformation**[^misinformation] continue to grow, **independent fact-checkers** face mounting challenges, especially as social media giants scale back their **financial support**, pivoting instead to alternative systems, such as **crowdsourced** and **AI-driven fact-checking**.
+
+At the beginning of 2025, **Meta**, once a leading supporter and user of third-party fact-checking, ended its collaboration with third-party fact-checkers for all its social media platforms in the US: Facebook, Instagram, and Threads.[^nyt] CEO **Mark Zuckerberg** framed the decision as a step towards protecting free speech from what he describes as **"politically biased"** and **error-prone censorship**.[^guardian-meta-get-rid] Critics argue that the move will open the door to increased disinformation and hate speech, **highlighting the inadequacies** of relying solely on community-driven moderation and AI-based tools.[^france24-disinformation] 
+
+Meta's decision follows a similar strategy adopted by **X** (formerly Twitter), which eliminated its internal fact-checking team in favour of **Community Notes**, a system that enlists community members, rather than professional journalists or content moderators, to flag which tweets deserve debunkings or may require additional context.[^wp-birdwatch] 
+
+Both Meta and X supplement these crowdsourced systems with AI systems fine-tuned to detect harmful content and assist non-professional content moderation. X deployed an **AI chatbot** designed to answer users' questions and verify information in real time, thereby facilitating moderation by non-professional reviewers. However, such chatbots have been known to provide **incorrect or misleading** responses, raising concerns about the reliability of AI-driven approaches to assist non-professional users in combating disinformation.[^guardian-AI-chatbot]
+
+This report reviews the existing literature on the effectiveness of these different fact-checking approaches: professional, crowdsourced, and AI-driven. It examines the strengths and weaknesses of each method by summarizing the available empirical evidence. Ultimately, it explores the potential complementarity between these approaches and how social media platforms can integrate them to enhance overall effectiveness. It concludes with an overview of available policy options to strengthen fact-checking efforts.
+
+<!-- Footnotes -->
+
+[^misinformation]: Misinformation, disinformation and fake news are closely related but distinct concepts. As Broda et al. explains [-@broda2024misinformation]: "people might just as well firmly believe in the wrong answers they give. Hence, they are not *un*informed but *mis*informed." Unlike a mere lack of knowledge,  *mis*information involves holding beliefs in claims that have been proven false or are not supported by the best available evidence.  The key distinction between misinformation and disinformation lies in intent: disinformation is deliberately deceptive, whereas misinformation is not. From this perspective, "fake news" is best understood as a specific form of disinformation rather than misinformation. 
+
+[^wp-birdwatch]: How Twitter’s contentious new fact-checking project really works, Washington Post, accssed June 12, 2025, https://www.washingtonpost.com/technology/2022/11/09/twitter-birdwatch-factcheck-musk-misinfo/
+
+<!-- [^bbc]: Meta wants X-style community notes to replace fact checkers - can it work?, BBC, accessed June 12 2025, https://www.bbc.com/news/articles/c4g93nvrdz7o -->
+
+[^guardian-AI-chatbot]: X’s AI chatbot spread voter misinformation – and election officials fought back, Guardian, accessed June 12, 2025, https://www.theguardian.com/us-news/2024/sep/12/twitter-ai-bot-grok-election-misinformation
+
+[^guardian-meta-get-rid]: Meta to get rid of factcheckers and recommend more political content, Guardian, acccessed on June 12 2025, available at https://www.theguardian.com/technology/2025/jan/07/meta-facebook-instagram-threads-mark-zuckerberg-remove-fact-checkers-recommend-political-content
+
+[^france24-disinformation]: Disinformation experts slam Meta decision to end US fact-checking, France 24, accessed June 12, 2025, https://www.france24.com/en/live-news/20250107-disinformation-experts-slam-meta-decision-to-end-us-fact-checking
+
+<!-- [^kryptonews]: Meta Adopts Community Notes Model, Using AI To Review, KryptoNews, accessed on June 12, 2025; Available at https://www.kryptonews.com/2025/01/07/meta-adopts-community-notes-model-using-ai-to-review/ -->
+
+[^nyt]: Meta Says It Will End Its Fact-Checking Program on Social Media Posts, 2025, New York Times, Available at: https://www.nytimes.com/live/2025/01/07/business/meta-fact-checking
+
+<!-- [^reuters]: Amid war, vicious attacks and political turmoil, global fact-checkers fear the impact of the end of Meta’s programme, Reuters, https://reutersinstitute.politics.ox.ac.uk/news/amid-war-vicious-attacks-and-political-turmoil-global-fact-checkers-fear-impact-end-metas -->
+
+<!-- [^guardian-meta-layoff]: Meta’s factchecking partners brace for layoffs, Rachel Leingang, The Guardian, (Accessed: February 2025). Available at: https://www.theguardian.com/technology/2025/jan/08/meta-layoffs-factchecking-partners -->
+
+<!-- [^euractive]: US Big Tech backtracks on EU fact-checking commitments, Anupriya Datta, 2025, EURACTIV, Available at: https://www.euractiv.com/section/tech/news/us-big-tech-backtracks-on-eu-fact-checking-commitments/ -->
+
+# Independent Fact-Checkers
+
+
+Over the years, independent fact-checkers have become increasingly important in verifying the accuracy of news stories and public statements. In 2025, more than 140 of such organisations around the world are registered with the [**International Fact-Checking Network**](https://www.poynter.org/ifcn), of which approximately 60 also belong to the [**European Fact-Checking Network** (EFCN)](https://efcsn.com); which sets standards for transparency, non-partisanship, and methodological rigour in the EU. Most operate as non-profits, drawing funds from three main sources: **public grants**, **private donations**, and **commercial partnerships** with news media companies, including tech giants, such as Google and Meta [@singer2019fact]. 
+
+Recently, the withdrawal of funds from tech giants presents a considerable challenge, especially in the US. For instance, **PolitiFact**, a leading American non-profit fact-checker and 2009 Pulitzer Prize winner, reported that **5% of its revenue** came from the now-ended partnership with Meta.
+
+<!-- Meanwhile, newer models of verification, especially crowdsourced and AI-driven fact-checking, are gaining both prominence and financial backing. For example, a giant platform like X (formerly Twitter) has dismantled its in-house fact-checking team, opting to rely mainly on Community Notes, where community members can add context to fact-check posts, and fact-checking bots [NEED REF]. However, the capiability of these systems to effectively address misinformation and disinformation remains unclear, and severl have reported an increase in misinformation on X after its decisions to [...]  This report examines the strengths and complementarities of traditional independent fact-checking and these emerging approaches, exploring how they might coexist or converge in a rapidly evolving information landscape. -->
+
+The financial shortfall is made worse by the decision by the **US Federal Government** to shut down programs like **USAID** and the **National Endowment for Democracy**, which have traditionally contributed to independent fact-checking organizations around the world.[^NPR] According to a survey run by the EFCN, these cuts, together with the scaling back by social media, are estimated to lead to an overall negative impact on Fact-Checkers in the order of €25 million, which is likely to lead to the shutdown of 12 European Fact-checkers [@efcsn2025infointegrity].
+
+While forecasting the consequences of these dynamics is difficult due to the complex interplay between fact-checking and social media, academic research provides valuable insights into how independent fact-checkers curb misinformation. This evidence highlights the potential impact of funding shortfalls and underscores the need for informed policy responses
+
+[^NPR]: Trump funding freeze halts decades of U.S. democracy work around the world, NPR, Accessed June 2025, https://www.npr.org/2025/02/16/nx-s1-5297844/trump-musk-democracy-usaid-authoritarian-human-rights-funding-freeze
+
+<!-- [^EFCSN]: EFCSN Position Paper: Information integrity as a key objective of the European Democracy Shield https://efcsn.com/news/2025-04-04_efcsn-position-paper-information-integrity-as-a-key-objective-of-the-european-democracy-shield/ -->
+
+## Is Professional Fact-Checking Effective?
+
+Academic research underscores the effectiveness of independent fact-checking in combatting fake news and misinformation. On the supply side, experimental evidence from **Pagella Politica**, an Italian fact-checking website, shows that professional fact-checking **discourages politicians** from making factually incorrect statements [@mattozzi2022fact]. On the consumer side, experimental evidence from US and South African adults shows that **targeted warnings** by professional fact-checkers [@clayton2020real] and **sustained exposure** to fact-checking [@bowles2023sustaining] significantly improve the public's ability to detect fake news. Similarly, providing **debunking statements** on Facebook or credibility statements significantly reduced users' sharing of false statements [@henry2022checking; @yaqub2020effects]. Studies also reveal that fact-checks contribute to correcting the **public's false beliefs** over time [@carnahan2022correcting] and that the integration of fact-checking news into **Search Engines**, such as Google, can be impactful, even in small-scale experiments [@konstantinou2025google]. Other studies have provided empirical support for the effectiveness of professional fact-checking, demonstrating that their efforts contribute to reducing **public misperceptions** [@barrera2020facts; @nyhan2020facts; @nyhan2021backfire]. 
+
+A meta-analysis confirms overall positive effects on political beliefs, though moderated by ideology and education [@walter2020fact]. Independent fact-checkers tend to **appear less partisan** than those affiliated with major news organisations. In the 2020 US presidential elections, @diep2025check analysed 440 fact-checks, comparing independent outlets (FactCheck.org, PolitiFact, Snopes.com) with fact-checkers from news corporations (The New York Times, The Washington Post, USA Today). The analysis found that independent fact-checkers were relatively less partisan in their choice of which candidates to scrutinise (e.g., Trump vs. Biden) while maintaining similar levels of accuracy.
+
+Fact-checking organisations also play a vital role in helping social media companies to curb misinformation from within their platforms [@adamdoes]. For example, under Meta's former fact-checking program, partner organisations could flag false information, prompting **Facebook's or Instagram's algorithms** to reduce its distribution within the online community.[^fb-news] Studies found a significant reduction in visits to untrustworthy websites [@guess2018selective] and interactions with fake news [@allcott2019trends] on Facebook after 2016 -- when it partnered with third-party fact-checkers. While these studies do not fully isolate fact-checkers impact from other content moderation efforts, they suggest that such collaborations are effective. Thus, it is critical to understand the potential consequences of Meta's and X's decision to end these collaborations. 
+
+[^fb-news]: About fact-checking on Facebook, Instagram, and Threads, Facebook, Accessed: February 2025; https://www.facebook.com/business/help/2593586717571940
+
+<!-- 
+- @clayton2020real provides experimental evidence from U.S. adults (N = 2994) that specific warnings by fact-checkers were more effective than general warnings, influencing readers' perceived accuracy of fake news about political campaigns.
+
+- @bowles2023sustaining experimental evidence from adult South Africans (n = 8947) showing that sustained exposure to fact-checking lead to increased ability to discern fake news.
+
+- @calero2019believability explores fact-checking badges, but finds no evidence of effect of badges in a small sample (n = 120).
+
+- @graves2016understanding provides experimental evidence on various factors influencing journalistic coverage of fact-checking news.
+
+- A growing literature on various formats of fact-checking, such as truth rating scales [e.g., @amazeen2018correcting]. 
+
+- @konstantinou2025google run a lab experiment (n = 21) where pariticipants use a modified Google with "injecting" fact-checking news, showing how integration can be effective.
+
+- @carnahan2022correcting experiment in two-waves (n = 1,047) showing that fact checks helps change false or incorrect beliefs. 
+
+- @diep2025check compares 440 fact checks comparing independent (FactCheck.org, PolitiFact, Snopes.com) vs. news corporations (New York Times, Washington Post, USA Today). It shows independent were relatively less partisan in the selection of candidates (e.g., Trump vs Biden) but as accurate. 
+
+- @walter2020fact a meta-analysis (20 studies, 20,000 pariticpants) shows a significant effect on political beliefs, attenuated by ideoligy and knowledge (education?) 
+
+- @liu2023checking credibility of sources
+
+-->
+
+# Alternative Approaches
+
+Without third-party content verification, social media platforms will increasingly rely on internal, non-professional fact-checking methods, such as community-based verification or the more extensive use of automated, AI-driven fact-checking. Meta has publicly declared its intention to rely more on contributions from its community on Facebook, Instagram, and Threads (along the lines of X's Community Notes). While these alternative fact-checking approaches have some strengths, research also indicates significant limitations. 
+
+## Crowdsourced Fact-Checking
+
+The principle of crowd-based fact-checking is rooted in the wisdom of the crowd, first demonstrated by Francis Galton in 1907 [@galton1907vox]. Galton observed at a fair that while individual guesses of an animal's weight varied widely, the crowd's average was remarkably accurate. This principle --- that the average is more precise than individual guesses -- underlies the popularity of community-based moderation on platforms like Reddit or Stack Overflow, where collective input refines content quality. 
+
+However, crowdsourced fact-checking news presents unique challenges. Unlike questions about hobbies or technical queries, misinformation operates in an antagonistic environment where false stories are deliberately designed to deceive users.[^ox]
+
+Crowdsourcing itself is also **prone to biases and errors**. There are several case studies where crowdsourcing reinforces misinformation rather than correcting it.[^hbr-case-study] Moreover, experimental studies show that social influence can undermine the wisdom of crowds, leading to incorrect outcomes [@frey2021social]. Part of the problem stems from collective decisions being influenced by "herd behaviour," the tendency of individuals to conform to group opinions rather than independently verifying facts [@bikhchandani1998learning]. Indeed, a study on real-time crowdsourced fact-checking found that it significantly underperformed compared to professional fact-checkers [@godel2021moderating]. Additionally, the rapid news cycle may induce crowdsourced fact-checking to prioritise speed over accuracy. Given these limitations, crowd-based approaches alone cannot replace independent fact-checkers.
+
+[^ox]: A Modest Ox: Examining Two Approaches to Testing Crowdsourced Fact-Checking. Sanderson, R., & Tucker, C., Tech Policy Press. Available at: https://www.techpolicy.press/a-modest-ox-examining-two-approaches-to-testing-crowdsourced-fact-checking/
+
+[^hbr-case-study]: A Case Study of Crowdsourcing Gone Wrong, Sebastian K. F. and Tucker J. M., Harvard Business Review, 2016, Available at: https://hbr.org/2016/12/a-case-study-of-crowdsourcing-gone-wrong
+
+## AI-Driven Fact-Checking
+
+AI fact-checking systems analyse large datasets to detect patterns of misinformation. A recent study using **large language models** demonstrated high accuracy in controlled environments, correctly flagging 90% of false headlines [@deverna2024fact]. However, the study also highlighted that AI-driven fact-checking does not necessarily improve users' accuracy in sharing news, suggesting that its real-world effectiveness remains limited.
+
+Unlike professional fact-checkers, who can consult primary sources, AI fact-checking struggles with independent verification. AI systems base their answers on their training data, lack access to primary sources, and have limited logical or investigative reasoning. Thus, while AI can enhance misinformation detection, it cannot fully replace independent fact-checkers, whose investigative skills remain essential [@dobbs2012rise]. Additionally, many AI models rely on training data curated by human annotators and follow the instructions set by their developers. This human factor makes them vulnerable to the same biases present in the training datasets, limiting their ability to operate independently.
+
+## Hybrid Approaches 
+
+A hybrid approach that combines professional fact-checking with crowdsourced or AI-driven verification can help overcome the limitations of these methods when used in isolation. Fact-checker publications are already among the most frequently cited sources in initiatives such as Community Notes, suggesting that professional expertise can complement and enhance collective intelligence. One could envision systems in which fact-checkers are integrated as a structural component of Community Notes-style setups. Similarly, verified fact-checking content could be used to train or refine AI models, thereby improving the accuracy and reliability of their outputs.
+
+Thus, collaboration with fact-checkers need not be confined to formal contractual partnerships with platforms for directly verifying content. Their broader contributions—particularly the positive externalities they generate for crowdsourced systems and AI models—should be recognised and appropriately compensated, either by the platforms themselves or through public subsidies.
+
+# An Economic Rationale for Policy Intervention
+
+The withdrawal of major clients like Meta presents a **significant negative demand shock** that could severely impact independent fact-checking organisations. The resulting financial strain may lead to layoffs and scaled-down operations, particularly for smaller, independent groups lacking stable funding from news corporations or other sources.^[In Europe, most fact-checking companies operate as independent venture or civic society projects; thus are more at risk than fact-checkers linked to media corporations [@graves2016rise].] This could, in turn, drive market consolidation within the fact-checking industry, potentially reducing diversity and independence. The EU should continue monitor this trend to prevent harm to consumers.
+
+Another key concern is the rise in misinformation that will follow if social media platforms decide to curb their third-party fact-checking collaborations worldwide. As discussed above, research shows the current alternatives -- AI-based or crowd-based -- are not perfect substitutes for independent fact-checking efforts. AI lacks the necessary verification and investigative skills and crowd-based approaches are vulnerable to bias and social dynamics. Therefore, our analysis aligns with predictions of an increase in misinformation. This prediction ignores technological advances, like deep-fake videos, that would make misinformation even more challenging to detect. 
+
+Internal dynamics with social media platforms can partially mitigate the expected rise in misinformation.  Advertisers may avoid placing ads next to misinformation content, reducing revenue for these platforms. However, the prevalence of advertising on misinformation outlets suggests that advertisers may also benefit from such content [@ahmad2024role]. Similarly, users dissatisfied with misinformation may switch platforms---but only if they recognise it. However, this is not always easy, as detecting misinformation can be challenging. Ultimately, the impact of these factors will depend greatly on how users and advertisers will adjust their social media consumption in response to increased misinformation. So, it is important to know the "elasticity" of social media demand to assess its future influence on misinformation dynamics. However, research does not offer precise estimates of how user and advertiser behaviors change in response to increased misinformation, which is essential for assessing the elasticity of demand. Therefore, encouraging more targeted research in this area would be beneficial for understanding and mitigating the impact of misinformation on social media platforms.
+
+Since alternative moderation systems are imperfect substitutes and social media demand may be inelastic, platforms may not have sufficient market incentives to invest in quality moderation. This suggests that public intervention is necessary to sustain independent fact-checking efforts. Below we present some possible policy options. 
+
+### Policy Options
+
+The traditional economic rationale for policy intervention in the news market and to support fact-checking organisations is that the news market often suffers from **under-consumption and under-provision** of accurate information. As discussed, consumers usually struggle to assess the quality of news quality, as news content is a **credence good**, meaning it is difficult to verify its quality even after consumption. This leads to sub-optimal demand for accurate news. Additionally, accurate news generates positive externalities: if more people become better informed, the whole society benefits. Based on our view of the relevant academic literature, various policy options can help address these challenges. 
+
+Empirical evidence on the effectiveness of various interventions remains limited, largely due to data constraints and the inherent difficulty of isolating the impact of specific policies from confounding factors. Nevertheless, the academic literature has put forward several policy options to address these challenges.
+
+- **Direct Financial Support**: Since the market alone tends to under-supply accurate news, demand for fact-checking remains suboptimal. Governments can provide direct financial support through grants, tax credits, or subsidies to fact-checking organisations. For instance, the European Commission actively supports fact-checking organisations by providing grants and other assistance through various projects.^[https://commission.europa.eu/strategy-and-policy/coronavirus-response/fighting-disinformation/funded-projects-fight-against-disinformation_en] However, to avoid the risks of governmental overreach or bias in resource allocation, it is crucial that such funding is limited and that funding in the fact-checking industry remains diversified, with equal support from both public and private sources. This ensures that fact-checkers can maintain their independence and avoid undue influence.
+
+- **Certification Programs**: Introducing fact-checking badges or labels for news organisations or social media posts is an effective way to curb misinformation, as discussed above, and could increase visibility and encourage demand for accurate reporting, potentially supporting fact-checking organisations. Initiatives like the European Fact-Checking Standards Network, which promotes high-quality standards, can play a key role in facilitating these efforts^[https://efcsn.com]. However, certification programs may have a limited impact if consumers do not actively seek out certified sources or are unaware of these systems. Therefore, appropriate consumers awareness campaigns should accompany these interventions to make certification programs more effective.
+
+- **Mandatory Fact-Checking**: Another approach to stimulating the demand for accurate news is through regulatory requirements. Social media and news platforms could be required to integrate independent fact-checking on critical topics, such as public health or political elections. Although this intervention may raise operational costs for news outlets, lowering their margins, it can also significantly increase overall quality of information on sensitive topics. The EU's Digital Services Act package, which includes transparency obligations and risk mitigation measures for large platforms, may offer a model for such regulatory interventions -- even though it does not directly mandate fact-checking efforts. If platforms will continue to pivot towards less reliable news-sharing systems in the EU, the EU may consider strenghtening its transparency and risk mitgation requirements in the DSA, but it can also consider introducing mandatory fact-checking, such as requiring platforms to provide a minimum number of fact-checks per month or to ensure that a certain percentage of their content is fact-checked by a third party.
+
+- **Consumer Awareness & Media Literacy**: Public campaigns and education initiatives could equip people with better skills to evaluate the accuracy of news, which, in turn, could pressure platforms to enhance their moderation efforts. Initiatives that identify best practices and promote knowledge exchange on medial literacy programs in the EU, such as the  European Digital Media Observatory, could guide for national governments in implementing their public awareness campaigns.^[https://digital-strategy.ec.europa.eu/en/policies/media-literacy]
+
+- **Misinformation Tax**: Social media platforms could be required to internalise the negative externalities of misinformation via misinformation taxes. These tax revenues could be redistributed to fact-checking organisations or support public campaigns. A tax-based intervention could signficantly reduce the incentives for social media to monetise fake news. Nobel laureate in Economics, Paul Romer, proposed this concept for the U.S., which has sparked a growing debate within the EU.^[The great infodemic: time to consider a fake news tax, Bruegel, https://www.bruegel.org/blog-post/great-infodemic-time-consider-fake-news-tax] However, further research is needed to assess how consumers would perceive this policy and its overall feasibility in the EU.
+
+In conclusion, with the increasing challenges confronting independent fact-checking, public intervention may be crucial to sustaining reliable verification efforts and curbing the spread of misinformation. Identifying effective policy interventions should be a top priority, and gathering robust evidence is essential to making informed, effective decisions
+
+# References
+
+::: {#refs}
+:::
+
+
+# Acknowledgements
+
+We would like to thank Hendrik Bruns, Jens Linge, Yves Punie, Yannic Blaschke, and one anonymous reviewer for their very valuable comments and suggestions on earlier versions of this document. The views expressed are purely those of the authors and may not in any circumstances be regarded as stating an official position of the European Commission.
+
+
+# Contact Information
+
+Andrea Blasco (andrea.blasco@ec.europa.eu)  
+
+Francesco Sobbrio (francesco.sobbrio@uniroma2.it)  
